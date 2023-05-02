@@ -1,0 +1,587 @@
+[
+  {
+    "folder_name": "0",
+    "reader": "أحمد نعينع",
+    "link": "https:\/\/everyayah.com\/data\/Ahmed_Neana_128kbps\/",
+    "continuous": "0",
+    "reader_en": "Ahmed Neana",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "1",
+    "reader": "ابراهيم الاخضر",
+    "link": "https:\/\/everyayah.com\/data\/Ibrahim_Akhdar_32kbps\/",
+    "continuous": "0",
+    "reader_en": "Ibrahim Akhdar",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "2",
+    "reader": "ابو بكر الشاطري",
+    "link": "https:\/\/everyayah.com\/data\/Abu_Bakr_Ash-Shaatree_64kbps\/",
+    "continuous": "0",
+    "reader_en": "Abu Bakr Ash-Shaatree",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "3",
+    "reader": "احمد العجمي",
+    "link": "https:\/\/everyayah.com\/data\/ahmed_ibn_ali_al_ajamy_128kbps\/",
+    "continuous": "0",
+    "reader_en": "Ahmed Al-Ajamy",
+    "enable_basmala": "0",
+    "available": "1"
+  },
+  {
+    "folder_name": "4",
+    "reader": "خالد القحطاني",
+    "link": "https:\/\/everyayah.com\/data\/Khaalid_Abdullaah_al-Qahtaanee_192kbps\/",
+    "continuous": "0",
+    "reader_en": "Khaalid Al-Qahtaanee",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "5",
+    "reader": "خليفة الطنيجي",
+    "link": "https:\/\/everyayah.com\/data\/khalefa_al_tunaiji_64kbps\/",
+    "continuous": "0",
+    "reader_en": "Khalefa Al-Tunaiji",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "6",
+    "reader": "سعد الغامدي",
+    "link": "https:\/\/everyayah.com\/data\/Ghamadi_40kbps\/",
+    "continuous": "0",
+    "reader_en": "Sa'd Al-Ghamadi",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "7",
+    "reader": "سعود الشريم",
+    "link": "https:\/\/everyayah.com\/data\/Saood_ash-Shuraym_64kbps\/",
+    "continuous": "0",
+    "reader_en": "Saood Ash-Shuraym",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "8",
+    "reader": "سهل ياسين",
+    "link": "https:\/\/everyayah.com\/data\/Sahl_Yassin_128kbps\/",
+    "continuous": "0",
+    "reader_en": "Sahl Yassin",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "9",
+    "reader": "صلاح البدير",
+    "link": "https:\/\/everyayah.com\/data\/Salah_Al_Budair_128kbps\/",
+    "continuous": "0",
+    "reader_en": "Salah Al-Budair",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "10",
+    "reader": "صلاح بو خاطر",
+    "link": "https:\/\/everyayah.com\/data\/Salaah_AbdulRahman_Bukhatir_128kbps\/",
+    "continuous": "0",
+    "reader_en": "Salaah Bukhatir",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "11",
+    "reader": "عبد الباسط مجود",
+    "link": "https:\/\/everyayah.com\/data\/Abdul_Basit_Mujawwad_128kbps\/",
+    "continuous": "0",
+    "reader_en": "Abdul Basit Mujawwad",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "12",
+    "reader": "عبد الباسط مرتل",
+    "link": "https:\/\/everyayah.com\/data\/Abdul_Basit_Murattal_64kbps\/",
+    "continuous": "0",
+    "reader_en": "Abdul Basit Murattal",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "13",
+    "reader": "عبد الرحمن السديس",
+    "link": "https:\/\/everyayah.com\/data\/Abdurrahmaan_As-Sudais_64kbps\/",
+    "continuous": "0",
+    "reader_en": "Abdurrahmaan As-Sudais",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "14",
+    "reader": "عبد الله الجهني",
+    "link": "https:\/\/everyayah.com\/data\/Abdullaah_3awwaad_Al-Juhaynee_128kbps\/",
+    "continuous": "0",
+    "reader_en": "Abdullaah Al-Juhaynee",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "34",
+    "reader": "عبد الله المطرود",
+    "link": "https:\/\/everyayah.com\/data\/Abdullah_Matroud_128kbps\/",
+    "continuous": "0",
+    "reader_en": "Abdullah Al-Matrud",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "15",
+    "reader": "عبد الله بسفر",
+    "link": "https:\/\/everyayah.com\/data\/Abdullah_Basfar_32kbps\/",
+    "continuous": "0",
+    "reader_en": "Abdullah Basfar",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "16",
+    "reader": "عبدالمحسن القاسم",
+    "link": "https:\/\/everyayah.com\/data\/Muhsin_Al_Qasim_192kbps\/",
+    "continuous": "0",
+    "reader_en": "Muhsin Al-Qasim",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "17",
+    "reader": "على حجاج السويسى",
+    "link": "https:\/\/everyayah.com\/data\/Ali_Hajjaj_AlSuesy_128kbps\/",
+    "continuous": "0",
+    "reader_en": "Ali Hajjaj AlSuesy",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "18",
+    "reader": "علي الحذيفي",
+    "link": "https:\/\/everyayah.com\/data\/Hudhaify_64kbps\/",
+    "continuous": "0",
+    "reader_en": "Ali Al-Hudhaify",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "64",
+    "reader": "علي جابر",
+    "link": "https:\/\/everyayah.com\/data\/Ali_Jaber_64kbps\/",
+    "continuous": "0",
+    "reader_en": "Ali Jaber",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "19",
+    "reader": "كريم منصوري",
+    "link": "https:\/\/everyayah.com\/data\/Karim_Mansoori_40kbps\/",
+    "continuous": "0",
+    "reader_en": "Karim Mansoori",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "20",
+    "reader": "ماهر المعيقلي",
+    "link": "https:\/\/everyayah.com\/data\/Maher_AlMuaiqly_64kbps\/",
+    "continuous": "0",
+    "reader_en": "Maher AlMuaiqly",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "21",
+    "reader": "محمد الطبلاوي",
+    "link": "https:\/\/everyayah.com\/data\/Mohammad_al_Tablaway_64kbps\/",
+    "continuous": "0",
+    "reader_en": "Mohammad Al-Tablaway",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "22",
+    "reader": "محمد ايوب",
+    "link": "https:\/\/everyayah.com\/data\/Muhammad_Ayyoub_64kbps\/",
+    "continuous": "0",
+    "reader_en": "Muhammad Ayyoub",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "23",
+    "reader": "محمد جبريل",
+    "link": "https:\/\/everyayah.com\/data\/Muhammad_Jibreel_64kbps\/",
+    "continuous": "0",
+    "reader_en": "Muhammad Jibreel",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "24",
+    "reader": "محمد صديق المنشاوي مجود",
+    "link": "https:\/\/everyayah.com\/data\/Minshawy_Mujawwad_64kbps\/",
+    "continuous": "0",
+    "reader_en": "Mohamed Minshawy Mujawwad",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "25",
+    "reader": "محمد صديق المنشاوي مرتل",
+    "link": "https:\/\/everyayah.com\/data\/Minshawy_Murattal_128kbps\/",
+    "continuous": "0",
+    "reader_en": "Mohamed Minshawy Murattal",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "26",
+    "reader": "محمود خليل الحصري",
+    "link": "https:\/\/everyayah.com\/data\/Husary_64kbps\/",
+    "continuous": "0",
+    "reader_en": "Mahmoud Husary",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "27",
+    "reader": "محمود خليل الحصري مجود",
+    "link": "https:\/\/everyayah.com\/data\/Husary_Mujawwad_64kbps\/",
+    "continuous": "0",
+    "reader_en": "Mahmoud Husary Mujawwad",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "28",
+    "reader": "محمود خليل الحصري معلم",
+    "link": "https:\/\/everyayah.com\/data\/Husary_Muallim_128kbps\/",
+    "continuous": "0",
+    "reader_en": "Mahmoud Husary Muallim",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "29",
+    "reader": "محمود علي البنا",
+    "link": "https:\/\/everyayah.com\/data\/mahmoud_ali_al_banna_32kbps\/",
+    "continuous": "0",
+    "reader_en": "Mahmoud Ali Al-Banna",
+    "enable_basmala": "0",
+    "available": "1"
+  },
+  {
+    "folder_name": "30",
+    "reader": "مشاري العفاسي",
+    "link": "https:\/\/everyayah.com\/data\/Alafasy_64kbps\/",
+    "continuous": "0",
+    "reader_en": "Mashary Alafasy",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "31",
+    "reader": "ناصر القطامي",
+    "link": "https:\/\/everyayah.com\/data\/Nasser_Alqatami_128kbps\/",
+    "continuous": "0",
+    "reader_en": "Nasser Al-Qatami",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "32",
+    "reader": "هاني رفاعي",
+    "link": "https:\/\/everyayah.com\/data\/Hani_Rifai_64kbps\/",
+    "continuous": "0",
+    "reader_en": "Hani Rifai",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "33",
+    "reader": "ياسر الدوسري",
+    "link": "https:\/\/everyayah.com\/data\/Yasser_Ad-Dussary_128kbps\/",
+    "continuous": "0",
+    "reader_en": "Yasser Ad-Dussary",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "35",
+    "reader": "ورش أبراهيم الدوسرى",
+    "link": "https:\/\/everyayah.com\/data\/warsh_ibrahim_aldosary_128kbps\/",
+    "continuous": "0",
+    "reader_en": "Warsh Ibrahim Al-Dosary",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "36",
+    "reader": "ورش ياسين الجزائري",
+    "link": "https:\/\/everyayah.com\/data\/warsh_yassin_al_jazaery_64kbps\/",
+    "continuous": "0",
+    "reader_en": "Warsh Yassin Al-Jazaery",
+    "enable_basmala": "0",
+    "available": "1"
+  },
+  {
+    "folder_name": "37",
+    "reader": "ابراهيم الاخضر متصل",
+    "link": "https:\/\/everyayah.com\/data\/Ibrahim_Akhdar_32kbps\/PageMp3s\/",
+    "continuous": "1",
+    "reader_en": "Ibrahim Akhdar (gapless)",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "38",
+    "reader": "ابو بكر الشاطري متصل",
+    "link": "https:\/\/everyayah.com\/data\/Abu_Bakr_Ash-Shaatree_64kbps\/PageMp3s\/",
+    "continuous": "1",
+    "reader_en": "Abu Bakr Ash-Shaatree (gapless)",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "39",
+    "reader": "احمد العجمي متصل",
+    "link": "https:\/\/everyayah.com\/data\/Ahmed_ibn_Ali_al-Ajamy_64kbps_QuranExplorer.Com\/PageMp3s\/",
+    "continuous": "1",
+    "reader_en": "Ahmed Al-Ajamy (gapless)",
+    "enable_basmala": "0",
+    "available": "1"
+  },
+  {
+    "folder_name": "40",
+    "reader": "خليفة الطنيجي متصل",
+    "link": "https:\/\/everyayah.com\/data\/khalefa_al_tunaiji_64kbps\/PageMp3s\/",
+    "continuous": "1",
+    "reader_en": "Khalefa Al-Tunaiji (gapless)",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "41",
+    "reader": "سعد الغامدي متصل",
+    "link": "https:\/\/everyayah.com\/data\/Ghamadi_40kbps\/PageMp3s\/",
+    "continuous": "1",
+    "reader_en": "Sa'd Al-Ghamadi (gapless)",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "42",
+    "reader": "سعود الشريم متصل",
+    "link": "https:\/\/everyayah.com\/data\/Saood_ash-Shuraym_64kbps\/PageMp3s\/",
+    "continuous": "1",
+    "reader_en": "Saood Ash-Shuraym (gapless)",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "43",
+    "reader": "صلاح البدير متصل",
+    "link": "https:\/\/everyayah.com\/data\/Salah_Al_Budair_128kbps\/PageMp3s\/",
+    "continuous": "1",
+    "reader_en": "Salah Al-Budair (gapless)",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "44",
+    "reader": "صلاح بو خاطر متصل",
+    "link": "https:\/\/everyayah.com\/data\/Salaah_AbdulRahman_Bukhatir_128kbps\/PageMp3s\/",
+    "continuous": "1",
+    "reader_en": "Salaah Bukhatir (gapless)",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "45",
+    "reader": "عبد الباسط مجود متصل",
+    "link": "https:\/\/everyayah.com\/data\/Abdul_Basit_Mujawwad_128kbps\/PageMp3s\/",
+    "continuous": "1",
+    "reader_en": "Abdul Basit Mujawwad (gapless)",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "46",
+    "reader": "عبد الباسط مرتل متصل",
+    "link": "https:\/\/everyayah.com\/data\/Abdul_Basit_Murattal_64kbps\/PageMp3s\/",
+    "continuous": "1",
+    "reader_en": "Abdul Basit Murattal (gapless)",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "47",
+    "reader": "عبد الرحمن السديس متصل",
+    "link": "https:\/\/everyayah.com\/data\/Abdurrahmaan_As-Sudais_64kbps\/PageMp3s\/",
+    "continuous": "1",
+    "reader_en": "Abdurrahmaan As-Sudais (gapless)",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "48",
+    "reader": "عبد الله بسفر متصل",
+    "link": "https:\/\/everyayah.com\/data\/Abdullah_Basfar_32kbps\/PageMp3s\/",
+    "continuous": "1",
+    "reader_en": "Abdullah Basfar (gapless)",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "49",
+    "reader": "عبدالمحسن القاسم متصل",
+    "link": "https:\/\/everyayah.com\/data\/Muhsin_Al_Qasim_192kbps\/PageMp3s\/",
+    "continuous": "1",
+    "reader_en": "Muhsin Al-Qasim (gapless)",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "62",
+    "reader": "عبد الله المطرود متصل",
+    "link": "https:\/\/everyayah.com\/data\/Abdullah_Matroud_128kbps\/PageMp3s\/",
+    "continuous": "1",
+    "reader_en": "Abdullah Al-Matrud (gapless)",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "50",
+    "reader": "علي الحذيفي متصل",
+    "link": "https:\/\/everyayah.com\/data\/Hudhaify_32kbps\/PageMp3s\/",
+    "continuous": "1",
+    "reader_en": "Ali Al-Hudhaify (gapless)",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "51",
+    "reader": "ماهر المعيقلي متصل",
+    "link": "https:\/\/everyayah.com\/data\/Maher_AlMuaiqly_64kbps\/PageMp3s\/",
+    "continuous": "1",
+    "reader_en": "Maher AlMuaiqly (gapless)",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "52",
+    "reader": "محمد الطبلاوي متصل",
+    "link": "https:\/\/everyayah.com\/data\/Mohammad_al_Tablaway_64kbps\/PageMp3s\/",
+    "continuous": "1",
+    "reader_en": "Mohammad Al-Tablaway (gapless)",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "53",
+    "reader": "محمد ايوب متصل",
+    "link": "https:\/\/everyayah.com\/data\/Muhammad_Ayyoub_64kbps\/PageMp3s\/",
+    "continuous": "1",
+    "reader_en": "Muhammad Ayyoub (gapless)",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "54",
+    "reader": "محمد جبريل متصل",
+    "link": "https:\/\/everyayah.com\/data\/Muhammad_Jibreel_64kbps\/PageMp3s\/",
+    "continuous": "1",
+    "reader_en": "Muhammad Jibreel (gapless)",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "55",
+    "reader": "المنشاوي مجود متصل",
+    "link": "https:\/\/everyayah.com\/data\/Minshawy_Mujawwad_64kbps\/PageMp3s\/",
+    "continuous": "1",
+    "reader_en": "Mohamed Minshawy Mujawwad (gapless)",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "56",
+    "reader": "المنشاوي مرتل متصل",
+    "link": "https:\/\/everyayah.com\/data\/Minshawy_Murattal_128kbps\/PageMp3s\/",
+    "continuous": "1",
+    "reader_en": "Mohamed Minshawy Murattal (gapless)",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "57",
+    "reader": "الحصري متصل",
+    "link": "https:\/\/everyayah.com\/data\/Husary_64kbps\/PageMp3s\/",
+    "continuous": "1",
+    "reader_en": "Husary (gapless)",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "58",
+    "reader": "الحصري مجود متصل",
+    "link": "https:\/\/everyayah.com\/data\/Husary_Mujawwad_64kbps\/PageMp3s\/",
+    "continuous": "1",
+    "reader_en": "Husary Mujawwad (gapless)",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "59",
+    "reader": "محمود البنا متصل",
+    "link": "https:\/\/everyayah.com\/data\/mahmoud_ali_al_banna_32kbps\/PageMp3s\/",
+    "continuous": "1",
+    "reader_en": "Mahmoud Ali Al-Banna (gapless)",
+    "enable_basmala": "0",
+    "available": "1"
+  },
+  {
+    "folder_name": "60",
+    "reader": "مشاري العفاسي متصل",
+    "link": "https:\/\/everyayah.com\/data\/Alafasy_64kbps\/PageMp3s\/",
+    "continuous": "1",
+    "reader_en": "Mashary Alafasy (gapless)",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "61",
+    "reader": "هاني رفاعي متصل",
+    "link": "https:\/\/everyayah.com\/data\/Hani_Rifai_64kbps\/PageMp3s\/",
+    "continuous": "1",
+    "reader_en": "Hani Rifai (gapless)",
+    "enable_basmala": "1",
+    "available": "1"
+  },
+  {
+    "folder_name": "63",
+    "reader": "ورش أبراهيم الدوسرى متصل",
+    "link": "https:\/\/everyayah.com\/data\/warsh\/warsh_ibrahim_aldosary_128kbps\/PageMp3s\/",
+    "continuous": "1",
+    "reader_en": "Warsh Ibrahim Al-Dosary (gapless)",
+    "enable_basmala": "1",
+    "available": "1"
+  }
+]

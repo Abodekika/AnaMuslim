@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    android:orientation="vertical"
+    tools:context=".ui.DashboardFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_200sdp"
+            android:background="@drawable/dashboard_background"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_200sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_100sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:layout_marginBottom="@dimen/_15sdp"
+
+            android:layout_weight="1"
+            android:background="@drawable/dashground_prayertime_background"
+            android:baselineAligned="false"
+            android:elevation="@dimen/_3sdp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+            app:layout_constraintVertical_bias="0.0">
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:text="@string/next_prayer"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_20sdp" />
+
+                <TextView
+                    android:id="@+id/dashboard_next_prayer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="@string/asha_prayer"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_20sdp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/dashboard_next_prayer_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="@string/time_string"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_20sdp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/btn_prayer_fragment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+
+                    android:backgroundTint="@color/white"
+                    android:text="@string/dashboard_btn"
+                    android:textColor="@color/mainColor"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <!--                    <ProgressBar-->
+                    <!--                        android:id="@+id/dashboard_progressbar_icon"-->
+                    <!--                        style="?android:attr/progressBarStyle"-->
+                    <!--                        android:layout_width="30dp"-->
+                    <!--                        android:layout_height="30dp"-->
+                    <!--                        android:layout_gravity="center"-->
+                    <!--                        android:visibility="invisible" />-->
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/dashboard_progressbar_animation"
+                        android:layout_width="@dimen/_50sdp"
+                        android:layout_height="@dimen/_50sdp"
+                        android:visibility="invisible"
+
+                        />
+
+                    <ImageView
+                        android:id="@+id/dashboard_location_icon"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_gravity="center"
+                        android:contentDescription="TODO"
+                        android:src="@drawable/ic_location_on_24" />
+
+                    <TextView
+                        android:id="@+id/dashboard_location_textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dasboard_address"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_15sdp" />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dash_photo_card" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+
+            >
+
+            <LinearLayout
+                android:id="@+id/dashboard_azkar_card"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:background="@drawable/background_buttom_dashboard"
+                android:clickable="true"
+                android:elevation="@dimen/_5sdp"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_130sdp"
+                    android:layout_margin="@dimen/_10sdp"
+
+
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/_70sdp"
+                        android:layout_height="@dimen/_70sdp"
+                        android:layout_gravity="center"
+
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:src="@drawable/azkar_icon_dashboard" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:gravity="center"
+                        android:text="اذكار المسلم "
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_20sdp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/dashboard_quran_card"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:background="@drawable/background_buttom_dashboard"
+
+                android:clickable="true"
+                android:elevation="@dimen/_5sdp"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_130sdp"
+                    android:layout_margin="@dimen/_10sdp"
+
+
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/_70sdp"
+                        android:layout_height="@dimen/_70sdp"
+                        android:layout_gravity="center"
+
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:src="@drawable/quran_icon_dashboard" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:gravity="center"
+                        android:text="القران الكريم"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_20sdp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+
+            >
+
+            <LinearLayout
+                android:id="@+id/dashboard_qublia_card"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:background="@drawable/background_buttom_dashboard"
+                android:clickable="true"
+                android:elevation="@dimen/_5sdp"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_130sdp"
+                    android:layout_margin="@dimen/_10sdp"
+
+
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/_70sdp"
+                        android:layout_height="@dimen/_70sdp"
+                        android:layout_gravity="center"
+
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:src="@drawable/qublia_icon_dashboard" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:gravity="center"
+                        android:text="القبلة"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_20sdp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dashboard_alsibha_card"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:background="@drawable/background_buttom_dashboard"
+                android:clickable="true"
+                android:elevation="@dimen/_5sdp"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_130sdp"
+                    android:layout_margin="@dimen/_10sdp"
+
+
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/_70sdp"
+                        android:layout_height="@dimen/_70sdp"
+                        android:layout_gravity="center"
+
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:src="@drawable/elsibha_icon_dashboard" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:gravity="center"
+                        android:text="التسبيح"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_20sdp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <!--    <androidx.viewpager2.widget.ViewPager2-->
+    <!--        android:id="@+id/dashboard_list"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:layout_marginBottom="@dimen/_25sdp"-->
+    <!--        android:paddingStart="@dimen/_50sdp"-->
+    <!--        android:paddingEnd="@dimen/_50sdp"-->
+
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+
+    <!--    <ScrollView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent">-->
+
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:orientation="vertical">-->
+
+
+    <!--            <LinearLayout-->
+    <!--                android:id="@+id/dashboard_azkar_card"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="@dimen/_100sdp"-->
+    <!--                android:layout_marginHorizontal="@dimen/_16sdp"-->
+    <!--                android:background="@drawable/salat_photo"-->
+    <!--                android:orientation="horizontal"-->
+
+    <!--                >-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="@dimen/_50sdp"-->
+    <!--                    android:layout_height="@dimen/_50sdp"-->
+    <!--                    android:layout_gravity="center"-->
+    <!--                    android:layout_marginStart="@dimen/_10sdp"-->
+    <!--                    android:background="@drawable/background_dashboard_icon"-->
+    <!--                    android:orientation="horizontal">-->
+
+    <!--                    <ImageView-->
+    <!--                        android:layout_width="match_parent"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:layout_gravity="center"-->
+    <!--                        android:src="@drawable/azkar_icon_dashboard"-->
+    <!--                        tools:ignore="ImageContrastCheck" />-->
+
+    <!--                </LinearLayout>-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="0dp"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    android:layout_weight="1"-->
+    <!--                    android:orientation="vertical"-->
+
+    <!--                    >-->
+
+
+    <!--                    <TextView-->
+    <!--                        android:id="@+id/textView4"-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:layout_marginStart="@dimen/_15sdp"-->
+    <!--                        android:layout_marginTop="@dimen/_20sdp"-->
+
+    <!--                        android:text="اذكار المسلم "-->
+    <!--                        android:textColor="@color/white"-->
+    <!--                        android:textSize="@dimen/_25sdp" />-->
+
+    <!--                    <TextView-->
+    <!--                        android:id="@+id/textView6"-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:layout_marginStart="@dimen/_15sdp"-->
+    <!--                        android:text="اذكار المساء تقي المسلم من وقت قراتها \n الي الصباح وتحفظه من كل اذي وشر"-->
+    <!--                        android:textColor="@color/white"-->
+    <!--                        android:textSize="@dimen/_12sdp" />-->
+
+    <!--                </LinearLayout>-->
+
+    <!--            </LinearLayout>-->
+
+
+    <!--            <LinearLayout-->
+    <!--                android:id="@+id/dashboard_quran_card"-->
+
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="@dimen/_100sdp"-->
+    <!--                android:layout_marginHorizontal="@dimen/_16sdp"-->
+    <!--                android:layout_marginTop="@dimen/_15sdp"-->
+    <!--                android:background="@drawable/quran_photo"-->
+    <!--                android:orientation="horizontal">-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="@dimen/_50sdp"-->
+    <!--                    android:layout_height="@dimen/_50sdp"-->
+    <!--                    android:layout_gravity="center"-->
+    <!--                    android:layout_marginStart="@dimen/_10sdp"-->
+    <!--                    android:background="@drawable/background_dashboard_icon"-->
+    <!--                    android:orientation="horizontal">-->
+
+    <!--                    <ImageView-->
+    <!--                        android:layout_width="match_parent"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:layout_gravity="center"-->
+    <!--                        android:src="@drawable/quran_icon_dashboard" />-->
+    <!--                </LinearLayout>-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="0dp"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    android:layout_gravity="center_horizontal"-->
+    <!--                    android:layout_weight="1"-->
+    <!--                    android:orientation="vertical"-->
+
+    <!--                    >-->
+
+    <!--                    <TextView-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:layout_marginStart="@dimen/_15sdp"-->
+    <!--                        android:layout_marginTop="@dimen/_10sdp"-->
+
+    <!--                        android:text="القران الكريم "-->
+    <!--                        android:textColor="@color/white"-->
+    <!--                        android:textSize="@dimen/_25sdp" />-->
+
+    <!--                    <TextView-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:layout_marginStart="@dimen/_15sdp"-->
+    <!--                        android:layout_marginTop="@dimen/_5sdp"-->
+    <!--                        android:layout_marginEnd="@dimen/_10sdp"-->
+    <!--                        android:text="@string/quran_card_subtitle"-->
+    <!--                        android:textColor="@color/white"-->
+    <!--                        android:textSize="@dimen/_12sdp"-->
+
+    <!--                        />-->
+
+
+    <!--                </LinearLayout>-->
+
+
+    <!--            </LinearLayout>-->
+
+
+    <!--            <LinearLayout-->
+    <!--                android:id="@+id/dashboard_qublia_card"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="@dimen/_100sdp"-->
+    <!--                android:layout_marginHorizontal="@dimen/_16sdp"-->
+    <!--                android:layout_marginTop="@dimen/_15sdp"-->
+    <!--                android:background="@drawable/quran_photo"-->
+    <!--                android:orientation="horizontal">-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="@dimen/_50sdp"-->
+    <!--                    android:layout_height="@dimen/_50sdp"-->
+    <!--                    android:layout_gravity="center"-->
+    <!--                    android:layout_marginStart="@dimen/_10sdp"-->
+    <!--                    android:background="@drawable/background_dashboard_icon"-->
+    <!--                    android:orientation="horizontal">-->
+
+    <!--                </LinearLayout>-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    android:layout_gravity="center_horizontal"-->
+    <!--                    android:layout_weight="1"-->
+    <!--                    android:orientation="vertical"-->
+
+    <!--                    >-->
+
+    <!--                    <TextView-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:layout_marginStart="@dimen/_15sdp"-->
+    <!--                        android:layout_marginTop="@dimen/_10sdp"-->
+
+    <!--                        android:text="القبلة"-->
+    <!--                        android:textColor="@color/white"-->
+    <!--                        android:textSize="@dimen/_25sdp" />-->
+
+    <!--                    <TextView-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:layout_marginStart="@dimen/_15sdp"-->
+    <!--                        android:layout_marginTop="@dimen/_5sdp"-->
+    <!--                        android:layout_marginEnd="@dimen/_10sdp"-->
+    <!--                        android:text="@string/dashboard_qubla_card_subtitle"-->
+    <!--                        android:textColor="@color/white"-->
+    <!--                        android:textSize="@dimen/_12sdp"-->
+
+    <!--                        />-->
+
+
+    <!--                </LinearLayout>-->
+
+
+    <!--            </LinearLayout>-->
+
+    <!--            <LinearLayout-->
+    <!--                android:id="@+id/dashboard_alsibha_card"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="@dimen/_100sdp"-->
+    <!--                android:layout_marginHorizontal="@dimen/_16sdp"-->
+    <!--                android:layout_marginTop="@dimen/_15sdp"-->
+    <!--                android:background="@drawable/quran_photo"-->
+    <!--                android:orientation="horizontal">-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="@dimen/_50sdp"-->
+    <!--                    android:layout_height="@dimen/_50sdp"-->
+    <!--                    android:layout_gravity="center"-->
+    <!--                    android:layout_marginStart="@dimen/_10sdp"-->
+    <!--                    android:background="@drawable/background_dashboard_icon"-->
+    <!--                    android:orientation="horizontal">-->
+
+    <!--                </LinearLayout>-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    android:layout_gravity="center_horizontal"-->
+    <!--                    android:layout_weight="1"-->
+    <!--                    android:orientation="vertical"-->
+
+    <!--                    >-->
+
+    <!--                    <TextView-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:layout_marginStart="@dimen/_15sdp"-->
+    <!--                        android:layout_marginTop="@dimen/_10sdp"-->
+
+    <!--                        android:text="السبحة"-->
+    <!--                        android:textColor="@color/white"-->
+    <!--                        android:textSize="@dimen/_25sdp" />-->
+
+    <!--                    <TextView-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:layout_marginStart="@dimen/_15sdp"-->
+    <!--                        android:layout_marginTop="@dimen/_5sdp"-->
+    <!--                        android:layout_marginEnd="@dimen/_10sdp"-->
+    <!--                        android:text="@string/dashboard_qubla_card_subtitle"-->
+    <!--                        android:textColor="@color/white"-->
+    <!--                        android:textSize="@dimen/_12sdp"-->
+
+    <!--                        />-->
+
+
+    <!--                </LinearLayout>-->
+
+
+    <!--            </LinearLayout>-->
+    <!--        </LinearLayout>-->
+
+    <!--    </ScrollView>-->
+
+
+</LinearLayout>

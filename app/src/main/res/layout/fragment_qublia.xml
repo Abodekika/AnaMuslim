@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    tools:context=".ui.">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+
+            android:id="@+id/qublia_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@color/mainColor"
+            android:theme="@style/toolbar_style"
+            app:menu="@menu/sora_list_app_bar"
+            app:title="القبلة "
+            app:titleTextColor="@color/white">
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?actionBarSize">
+
+        <TextView
+            android:id="@+id/qublia_degree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_above="@+id/qublia_image_second"
+            android:layout_alignParentEnd="true"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="185dp"
+            android:text="139.0 N"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_25sdp" />
+
+        <ImageView
+            android:id="@+id/qublia_image_background"
+            android:layout_width="@dimen/_300sdp"
+            android:layout_height="@dimen/_300sdp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/circle_shape_white" />
+
+        <ImageView
+            android:id="@+id/qublia_image_main"
+            android:layout_width="@dimen/_270sdp"
+            android:layout_height="@dimen/_270sdp"
+
+            android:layout_centerInParent="true"
+            android:src="@drawable/qublia" />
+
+
+        <ImageView
+            android:id="@+id/qublia_image_second"
+            android:layout_width="@dimen/_45sdp"
+            android:layout_height="@dimen/_190sdp"
+
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/qublia_22"
+            />
+
+        <TextView
+            android:id="@+id/info_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="130"
+            android:textColor="@color/mainColor"
+            android:textSize="@dimen/_10sdp" />
+
+        <TextView
+            android:id="@+id/qublia_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_50sdp"
+            android:text="@string/qublia_note"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14sdp" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

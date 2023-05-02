@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/dashboard_fragment">
+
+    <fragment
+        android:id="@+id/dashboard_fragment"
+        android:name="com.example.anamuslim.ui.DashboardFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_dashboard">
+
+
+        <action
+            android:id="@+id/action_dashboard_fragment_to_prayer_time_fragment"
+            app:destination="@id/prayer_time_fragment"
+            app:enterAnim="@anim/from_left" />
+        <action
+            android:id="@+id/action_dashboard_fragment_to_quran_fragment"
+            app:destination="@id/quran_fragment" />
+        <action
+            android:id="@+id/action_dashboard_fragment_to_azkar_fragment"
+            app:destination="@id/azkar_fragment" />
+        <action
+            android:id="@+id/action_dashboard_fragment_to_qubliaFragment"
+            app:destination="@id/qubliaFragment" />
+        <action
+            android:id="@+id/action_dashboard_fragment_to_alsibhaFragment"
+            app:destination="@id/alsibhaFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/prayer_time_fragment"
+        android:name="com.example.anamuslim.ui.PrayerTimeFragment"
+        android:label="@string/menu_prayer_time"
+        tools:layout="@layout/fragment_prayer_time" >
+        <action
+            android:id="@+id/action_prayer_time_fragment_to_dashboard_fragment"
+            app:destination="@id/dashboard_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/quran_fragment"
+        android:name="com.example.anamuslim.ui.SoraListFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_sora_list">
+        <action
+            android:id="@+id/action_quran_fragment_to_quranContainerFragment"
+            app:destination="@id/quranContainerFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/azkar_fragment"
+        android:name="com.example.anamuslim.ui.AllAzkarFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_all_azkar">
+        <action
+            android:id="@+id/action_azkar_fragment_to_azkarDetailsFragment"
+            app:destination="@id/azkarDetailsFragment"
+
+
+            />
+        <action
+            android:id="@+id/action_azkar_fragment_to_favoriteAzkarFragment"
+            app:destination="@id/favoriteAzkarFragment" />
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/qubliaFragment"
+        android:name="com.example.anamuslim.ui.QubliaFragment"
+        android:label="fragment_qublia"
+        tools:layout="@layout/fragment_qublia" />
+
+
+    <fragment
+        android:id="@+id/azkarDetailsFragment"
+        android:name="com.example.anamuslim.ui.AzkarDetailsFragment"
+        android:label="fragment_azkar_details"
+        tools:layout="@layout/fragment_azkar_details">
+        <argument
+            android:name="azkar"
+            app:argType="string" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteAzkarFragment"
+        android:name="com.example.anamuslim.ui.FavoriteAzkarFragment"
+        android:label="fragment_favorite_azkar"
+        tools:layout="@layout/fragment_favorite_azkar">
+        <action
+            android:id="@+id/action_favoriteAzkarFragment_to_azkarDetailsFragment"
+            app:destination="@id/azkarDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quranContainerFragment"
+        android:name="com.example.anamuslim.ui.QuranContainerFragment"
+        android:label="fragment_quran_container"
+        tools:layout="@layout/fragment_quran_container">
+        <argument
+            android:name="startPage"
+            app:argType="integer"
+
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/alsibhaFragment"
+        android:name="com.example.anamuslim.ui.AlsibhaFragment"
+        android:label="fragment_alsibha"
+        tools:layout="@layout/fragment_alsibha" />
+</navigation>

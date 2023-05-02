@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/favorite"
+        android:icon="@drawable/ic_favorite_24"
+        android:title="Favorite"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/az_detail_media_paused_button"
+        android:icon="@drawable/ic_baseline_paused"
+        android:title="Pause"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/az_detail_media_player_button"
+        android:icon="@drawable/ic_volume_up_24"
+
+        android:title="Play"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/more"
+        android:title="More"
+        app:showAsAction="never" />
+
+</menu>

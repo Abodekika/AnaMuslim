@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Ana Muslim</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_prayer_time">prayerTime</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="fajr_prayer">صلاة الفجر</string>
+    <string name="sunrize_prayer">صلاة الضحي</string>
+    <string name="zuhr_prayer">صلاة الظهر</string>
+    <string name="asr_prayer">"صلاة العصر "</string>
+    <string name="magreb_prayer">"صلاة المغرب "</string>
+    <string name="asha_prayer">صلاة العشاء</string>
+    <string name="jomma_prayer">صلاة الجمعة</string>
+    <string name="mid_night">قيام الليل</string>
+    <string name="AlSobi">"أذكار الصباح "</string>
+    <string name="Almasa">اذكار المساء</string>
+    <string name="Alnom">"اذكار النوم "</string>
+
+
+    <string name="fajr">الفجر</string>
+    <string name="sun_rise">الشروق</string>
+    <string name="zuhr">الظهر</string>
+    <string name="asr">العصر</string>
+    <string name="magrib">المغرب</string>
+    <string name="isha">العشاء</string>
+
+
+    <string name="quran_card_subtitle">مَثَلُ الَّذِي يَقْرَأُ الْقُرْآنَ وَهُوَ حَافِظٌ لَهُ مَعَ السَّفَرَةِ الْكِرَامِ الْبَرَرَةِ وَمَثَلُ الَّذِي يَقْرَأُ وَهُوَ يَتَعَاهَدُهُ وَهُوَ عَلَيْهِ شَدِيدٌ فَلَهُ أَجْرَانِ</string>
+
+    <string name="dashboard_qubla_card_subtitle">كَانَ نبى اللَّهِ يُصَلِّي عَلَى رَاحِلَتِهِ حَيْثُ تَوَجَّهَتْ به، فَإِذَا أَرَادَ الْفَرِيضَةَ، نَزَلَ، فَاسْتَقْبَلَ الْقِبْلَةِ</string>
+
+
+    <string name="all_azkar_toolbat_title">Muslim Azkar</string>
+
+    <string name="fav_toolbar_title">الاذكار المفضلة</string>
+
+    <string name="wait_download">جاري تحميل صورالقران الكريم</string>
+    <string name="dialog_azkar_download_text">برجاء الانتظار جاري تحميل الذكر</string>
+    <string name="title_activity_location">LocationActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="location_text">يحتاج التطبيق الي موقعك \n لحساب أوقات الصلاة</string>
+    <string name="pm">Pm</string>
+    <string name="am">Am</string>
+    <string name="qublia_note">ملاحظة: يرجي ابقاء هاتفك مسطحا اافقيا.وازالة اي معدن او مغانطيس بعيدا عن الهاتف لتجنب الانحراف المغناطيسي</string>
+    <string name="time_string">03:25 م</string>
+    <string name="dashboard_btn">عرض اوقات الصلاة</string>
+    <string name="dasboard_address">بشلا - ميت غمر</string>
+    <string name="next_prayer">الصلاة القادمة</string>
+    <string name="title_dashboard1">اذكار المسلم</string>
+
+
+    <string-array name="reader">
+        <item>ابراهيم احمد   </item>
+        <item>احمد خليل الحصري   </item>
+        <item> احمد محمد    </item>
+
+    </string-array>
+
+</resources>

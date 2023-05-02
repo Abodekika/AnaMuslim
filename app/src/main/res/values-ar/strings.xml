@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="fajr_prayer">صلاة الفجر</string>
+    <string name="sunrize_prayer">صلاة الضحي</string>
+    <string name="zuhr_prayer">صلاة الظهر</string>
+    <string name="asr_prayer">"صلاة العصر "</string>
+    <string name="magreb_prayer">"صلاة المغرب "</string>
+    <string name="asha_prayer">صلاة العشاء</string>
+    <string name="jomma_prayer">صلاة الجمعة</string>
+    <string name="mid_night">قيام الليل</string>
+    <string name="AlSobi">"أذكار الصباح "</string>
+    <string name="Almasa">اذكار المساء</string>
+    <string name="Alnom">"اذكار النوم "</string>
+    <string name="app_name">أنا مسلم</string>
+</resources>
